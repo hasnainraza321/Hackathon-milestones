@@ -1,0 +1,90 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; /* Light grey-blue background for a softer look */
+    margin: 0;
+    padding: 50px; /* Reduced padding for better spacing */
+}
+
+.resume-container {
+    display: flex;
+    background-color: #ffffff; /* White background for the resume container */
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 15px; /* Slightly larger border radius for a modern look */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Softer and larger shadow for better contrast */
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: #343a40; /* Dark grey background */
+    color: #f8f9fa; /* Light grey text color for better readability */
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #007bff; /* Vibrant blue border for a refreshed look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for the left section */
+}
+
+.profile-picture {
+    width: 180px;
+    height: 180px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #007bff; /* Matching border color with the left section */
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for the profile picture */
+}
+
+h1 {
+    font-size: 30px; /* Slightly larger font size for emphasis */
+    margin: 20px 0;
+    text-align: center;
+    color: #333333; /* Darker grey for better readability */
+}
+
+h3 {
+    font-size: 22px; /* Increased font size for headings */
+    padding: 12px;
+    margin: 20px 0 10px;
+    color: #007bff; /* A vibrant blue color for headings */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Softer and more subtle shadow for headings */
+    background-color: #e9ecef; /* Light grey background for headings */
+    text-shadow: 1px 1px 3px rgba(0, 123, 255, 0.3); /* Soft blue text shadow */
+}
+
+ul {
+    list-style-type: disc; /* Changed to disc for better readability */
+    padding-left: 20px; /* Added padding for list alignment */
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+    color: #555555; /* Darker grey text color for list items */
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 65%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for the right section */
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Larger shadow for button */
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: #28a745; /* Green background color for the button */
+    color: #ffffff; /* White text color for the button */
+    border: none; /* Remove default border */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green for hover effect */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
