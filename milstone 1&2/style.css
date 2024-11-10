@@ -1,0 +1,171 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; 
+    margin: 0;
+    padding: 50px; 
+}
+
+.resume-container {
+    display: flex;
+    background-color: #ffffff; 
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 15px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); 
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: #343a40; 
+    color: #f8f9fa; 
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #007bff; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.profile-picture {
+    width: 180px;
+    height: 180px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #007bff; 
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+h1 {
+    font-size: 30px; 
+    margin: 20px 0;
+    text-align: center;
+    color: #333333; 
+}
+
+h3 {
+    font-size: 25px; 
+    padding: 12px;
+    margin: 20px 0 10px;
+    color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgb(186, 220, 226); 
+    background-color: #e9ecef; 
+    text-shadow: 1px 1px 3px rgba(0, 123, 255, 0.3); 
+}
+
+ul {
+    list-style-type: disc; 
+    padding-left: 20px; 
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+    color: #555555; 
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 65%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: #28a745; 
+    color: #ffffff; 
+    border: none; 
+}
+
+button:hover {
+    background-color: #218838; 
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3); 
+}
+/* Media Query for Laptops */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .resume-container {
+        flex-direction: row; /* Keeps the sections side-by-side */
+        width: 90%; /* Slightly reduced width for better spacing on smaller laptop screens */
+    }
+
+    .left-section {
+        width: 40%; /* Slightly more width for better balance on laptops */
+        padding: 20px;
+        text-align: center; /* Center text for a balanced look */
+    }
+
+    .right-section {
+        width: 60%; /* Adjusted width for main content */
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px; /* Slightly reduced font size for smaller screens */
+    }
+
+    h3 {
+        font-size: 24px; /* Slightly reduced font size for section headers */
+    }
+
+    .profile-picture {
+        width: 160px; /* Medium size for better balance on laptops */
+        height: 160px;
+        margin: 15px auto;
+    }
+
+    button {
+        font-size: 17px; /* Slightly smaller button text for compact view */
+        padding: 10px 20px; /* Added padding for a comfortable touch target */
+    }
+}
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .resume-container {
+        width: 100%;
+    }
+
+    .left-section,
+    .right-section {
+        width: 100%;
+        padding: 10px;
+        text-align: left;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .profile-picture {
+        width: 120px;
+        height: 120px;
+        margin: 20px auto;
+    }
+
+    ul {
+        padding-left: 15px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 16px;
+        padding: 8px;
+        margin-top: 15px;
+    }
+}
